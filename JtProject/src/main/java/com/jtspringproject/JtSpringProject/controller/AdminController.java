@@ -23,7 +23,8 @@ import com.mysql.cj.protocol.Resultset;
 
 import net.bytebuddy.asm.Advice.This;
 import net.bytebuddy.asm.Advice.OffsetMapping.ForOrigin.Renderer.ForReturnTypeName;
-
+System.getEnv()
+System.getProperty()
 @Controller
 @RequestMapping("/admin")
 public class AdminController {
